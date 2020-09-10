@@ -1,0 +1,44 @@
+#page {
+    background: var(--color-primary-light);
+}
+
+table {
+    border: 3px solid var(--color-secondary-dark)
+}
+
+th {
+    font-weight: bold;
+    font-size: 1.8rem
+}
+
+td,
+th,
+tr {
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--color-title-in-primary);
+    text-align: center;
+    padding: 4px;
+}
+
+button {
+    margin: 3rem;
+    padding: 2px;
+    background: var(--color-secondary);
+    border-radius: 10px;
+    color: var(--color-title-in-primary);
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button:hover {
+    background: var(--color-secondary-dark);
+}
+
+.top-bar-container {
+    margin: 3rem
+}
+
+#title {
+    display: block;
+}

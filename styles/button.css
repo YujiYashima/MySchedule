@@ -1,0 +1,23 @@
+.efeito-3 {
+    background: #04D361;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 8px 20px;
+    border: none;
+    color: #ffffff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.efeito-3:hover {
+    /* background: rgba(0, 0, 0, 0);
+    color: #04D361;
+    box-shadow: inset 0 0 0 3px #04D361;*/
+    transition: 0.5s;
+    color: #04D361;
+    background: rgba(0, 0, 0, 0);
+    box-shadow: inset 0 0 0 2px #04D361;
+}
